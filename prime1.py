@@ -27,8 +27,7 @@ for x in xrange(t):
      inputs.append(raw_input().split())
 
 for x in inputs:
-    primes = FindPrimes(int(x[1]))
+    primes = FindPrimes(int(x[1])) - FindPrimes(int(x[0])-1)
     for y in primes:
-        if y >= int(x[0]):
-            print y
+        i
     print ""        
