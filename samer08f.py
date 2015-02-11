@@ -9,7 +9,6 @@ while(n != 0):
 	n = input()
 	if n != 0:
 		sides.append(n)
-print sides
 
 
 for side in sides:
