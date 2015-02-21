@@ -1,5 +1,6 @@
 import sys
 answers = []
+
 def maxAmount(n):
 	if n < 12:
 		return n

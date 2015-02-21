@@ -1,0 +1,2 @@
+def countRect(n):
+	factor	
